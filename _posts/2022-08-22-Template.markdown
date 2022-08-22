@@ -1,0 +1,9 @@
+---
+title: Template
+date: 2022-08-22 11:25:13 +0800
+categories: [test1, test2]
+tags: [test3]     # TAG names should always be lowercase
+---
+test if this works fine?
+ 
+let's see [this website](https://chirpy.cotes.page/posts/write-a-new-post/). 

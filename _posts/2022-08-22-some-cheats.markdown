@@ -4,6 +4,9 @@ date: 2022-08-22 22:08:37 +0800
 categories: [乱抄, cheats]
 tags: [cheats]     # TAG names should always be lowercase
 ---
+# Kolmogrov Complexity 
+
+事实上，任何可用简短的程序打印的数值不可能是随机的，随机数值是不可压缩的。
 
 # vim cheats 
 *global* replacement: *%* s/foo/bar/*g*

@@ -4,11 +4,11 @@ date: 2022-08-22 22:08:37 +0800
 categories: [乱抄, cheats]
 tags: [cheats]     # TAG names should always be lowercase
 ---
-# Kolmogrov Complexity 
+## Kolmogrov Complexity 
 
 事实上，任何可用简短的程序打印的数值不可能是随机的，随机数值是不可压缩的。
 
-# vim cheats 
+## vim cheats 
 *global* replacement: *%* s/foo/bar/*g*
 
 *global* delete: *%* s/foo
@@ -17,7 +17,7 @@ delete foo rows: g/foo/d
 
 keep only foo rows: v/foo/d
 
-# md cheats
+## md cheats
 hashtag-space: titles
 
 1 star: *italic*
@@ -42,28 +42,22 @@ hashtag-space: titles
 
     4 spaces: code
 
-square-**name**-square-bracket-**url**-bracket: [URL](https://github.com/YJY1029/container/blob/main/linux.md) 
+square-**name**-square-bracket-**url**-bracket: [URL](https://github.com/YJY1029/container/blob/main/linux.md)
 
 exclamatioin-ditto: ![image](null)
 
-# git cheats 
+## git cheats 
 
-## new branch
-JUST REMEMBER TO RENAME PARENT DIR IF DUPLICATED
+Just remember to rename parent directory if duplicated. 
 
-## change token
- 1. find old remote: git remote -v
- 2. remove old remote: git remote rm foo 
- 3. add new remote: git remote add origin https: //oauth2:***token***@github.com/usr/repo.git
-
-# scp cheats 
+## scp cheats 
 upload /foo to /bar: scp /foo usr@ip:/bar
 
 download: simply reverse 
 
 -r for directory, -P for port 
 
-# tar cheats 
+## tar cheats 
 create foo.tar from ./bar: tar -cf foo.tar ./bar 
 
 decompress: tar -xf foo.tar 

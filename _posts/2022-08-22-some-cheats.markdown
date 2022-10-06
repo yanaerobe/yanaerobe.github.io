@@ -18,21 +18,11 @@ delete foo rows: g/foo/d
 keep only foo rows: v/foo/d
 
 ## md cheats
-hashtag-space: titles
-
-1 star: *italic*
-
-2 stars: **bold** 
-
-3 stars: ***bold italic*** 
-
 2 waves: ~~strikeout~~ 
 
 2 equals: ==highlight==
 
 - slash-space: list
-
-1. num-dot-space: list with num
 
 - [ ] - [ ] : check-list
 
@@ -48,7 +38,13 @@ exclamatioin-ditto: ![image](null)
 
 ## git cheats 
 
-Just remember to rename parent directory if duplicated. 
+Remember to rename parent directory if duplicated. 
+
+git commit --amend -m "xxx" && git push -uf origin: extremely useful to one-time forcifully fix last push. 
+
+rebase.false: traditional merge
+
+rebase.true: concatenate dev commits after main
 
 ## scp cheats 
 upload /foo to /bar: scp /foo usr@ip:/bar

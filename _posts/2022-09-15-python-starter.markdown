@@ -1,5 +1,5 @@
 ---
-title: Python小入门一下
+title: Python新手备忘
 date: 2022-09-15 12:30:40 +0100
 categories: [乱抄, python]
 tags: [python]     # TAG names should always be lowercase

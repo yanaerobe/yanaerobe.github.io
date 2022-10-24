@@ -1,0 +1,28 @@
+---
+title: WSL2 DNS解析失败解决方法
+date: 2022-10-18 19:47:28 +0100
+categories: [笔记, linux]
+tags: [WSL, DNS]
+---
+
+## 症状
+
+1. `sudo apt update`无法连接，报错ubuntu站点`Temporary failure in name resolution`。
+2. `ping x.x.x.x`结果正常，说明网络连接正常。
+3. `ping www.google.com`无法连接，显示`Temporary failure in name resolution`。
+
+## 解决方法
+
+1. 进入`/etc/`，编辑`wsl.conf`，添加如下设置禁用`resolv.conf`的自动生成：
+    [network]
+    generateResolvConf = false
+2. 删除当前目录下`resolv.conf`。
+3. 管理员权限打开Powershell，输入`wsl --shutdown`，关闭wsl。
+4. 在任意Powershell中，运行`nslookup`，查看当前DNS解析站，如X.X.X.X。
+5. 再次启动wsl，进入`/etc/`，编辑`resolv.conf`，添加如下设置：
+    nameserver X.X.X.X
+6. 测试ping。
+
+## （脑补的）解释
+
+自动生成的`resolv.conf`在特定防火墙/内网/VPN设置下发生异常的空链接，导致wsl无法获取DNS解析站。

@@ -1,7 +1,7 @@
 ---
 title: 进阶(System)Verilog笔记
 date: 2022-10-6 22:09:50 +0100
-categories: [乱抄, Verilog]
+categories: [乱抄, Coding]
 tags: [Verilog]
 ---
 

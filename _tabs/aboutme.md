@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> I'm currently interested in `advanced python programming skills`. Please reach out to me for any experience sharing. :wink:
+> I'm currently interested in `vim plugins`. Please reach out to me for any experience sharing. :wink:
 {: .prompt-tip }
 
 *[CEF - our group's page](https://cef.eng.ed.ac.uk/)*

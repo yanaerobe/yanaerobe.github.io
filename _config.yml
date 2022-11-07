@@ -38,15 +38,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 杨彦隽
+  name: Yanjun Yang
   email: yanjun.yang@ed.ac.uk
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/anaerobeyj      # change to your twitter homepage
     - https://github.com/yanjyang       # change to your github homepage
+    - https://twitter.com/anaerobeyj      # change to your twitter homepage
     # Uncomment below to add more social links
+    - https://www.linkedin.com/in/anaerobe-yang
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
 

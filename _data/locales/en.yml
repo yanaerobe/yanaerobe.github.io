@@ -20,7 +20,7 @@ tabs:
 search:
   hint: search
   cancel: Cancel
-  no_results: Oops! No results found.
+  no_results: 🤨
 
 panel:
   lastmod: Recently Updated
@@ -35,7 +35,7 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved.
+  brief: Some rights reserved. # <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fyanjyang.github.io&count_bg=%23767676&title_bg=%232D2D2D&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
@@ -44,7 +44,7 @@ meta: Powered by :PLATFORM with 烂大街但确实好看的 :THEME theme.
 
 not_found:
   statment: 
-    Sorry :-(, but please don't look for an iceberg in the desert. 
+    Nought may endure but Mutability.😐
 
 notification:
   update_found: A new version of content is available.

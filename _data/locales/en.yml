@@ -35,7 +35,8 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved. # <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fyanjyang.github.io&count_bg=%23767676&title_bg=%232D2D2D&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
+  brief: Some rights reserved. <script> function cb(response) { document.getElementById('visits').innerText = response.value; } </script> <script async src="https://api.countapi.xyz/hit/yanjyang.github.io/visits?callback=cb"></script> <body> Thanks for <span id="visits"></span> clicks! </body>
+
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.

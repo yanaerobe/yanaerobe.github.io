@@ -21,5 +21,6 @@ Gemfile.lock
 node_modules
 package-lock.json
 
-# template
+# utils
 template.md
+hits.md

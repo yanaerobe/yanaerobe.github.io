@@ -35,7 +35,7 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved. <script> function cb(response) { document.getElementById('visits').innerText = response.value; } </script> <script async src="https://api.countapi.xyz/hit/yanjyang.github.io/visits?callback=cb"></script> <body> Thanks for <span id="visits"></span> clicks! </body>
+  brief: Some rights reserved. 
 
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed

@@ -5,15 +5,6 @@ categories: [笔记, cheats]
 tags: [cheats]     # TAG names should always be lowercase
 ---
 
-## vim cheats 
-*global* replacement: `%s/foo/bar/g`
-
-*global* delete: `%s/foo`
-
-delete foo rows: `g/foo/d`
-
-keep only foo rows: `v/foo/d`
-
 ## md cheats
 2 waves: ~~strikeout~~ 
 

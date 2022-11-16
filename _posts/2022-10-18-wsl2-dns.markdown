@@ -1,7 +1,7 @@
 ---
 title: WSL2 DNS解析失败解决方法
 date: 2022-10-18 19:47:28 +0100
-categories: [笔记, linux]
+categories: [笔记, Linux]
 tags: [WSL, DNS]
 ---
 
@@ -14,8 +14,12 @@ tags: [WSL, DNS]
 ## 解决方法
 
 1. 进入`/etc/`，编辑`wsl.conf`，添加如下设置禁用`resolv.conf`的自动生成：
-    [network]
-    generateResolvConf = false
+
+```config
+[network]
+generateResolvConf = false
+```
+
 2. 删除当前目录下`resolv.conf`。
 3. 管理员权限打开Powershell，输入`wsl --shutdown`，关闭wsl。
 4. 在任意Powershell中，运行`nslookup`，查看当前DNS解析站，如X.X.X.X。

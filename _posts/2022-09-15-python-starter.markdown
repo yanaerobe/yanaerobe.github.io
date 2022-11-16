@@ -1,7 +1,7 @@
 ---
-title: Python新手备忘
+title: WIP:Python新手备忘
 date: 2022-09-15 12:30:40 +0100
-categories: [笔记, Coding]
+categories: [乱抄, Coding]
 tags: [python]     # TAG names should always be lowercase
 ---
 *引文均来自网络，如有侵权请联系删除*

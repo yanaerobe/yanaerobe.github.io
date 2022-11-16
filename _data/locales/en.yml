@@ -45,7 +45,7 @@ meta: Powered by :PLATFORM with 烂大街但确实好看的 :THEME theme.
 
 not_found:
   statment: 
-    Nought may endure but Mutability.😐
+    Nought may endure but Mutability. --Percy Bysshe Shelly😐
 
 notification:
   update_found: A new version of content is available.
@@ -68,7 +68,7 @@ post:
     next: Newer
     previous: Older
     copy_code:
-      succeed: Copied!
+      succeed: Copycatted!
     share_link:
       title: Copy link
       succeed: Link copied successfully!

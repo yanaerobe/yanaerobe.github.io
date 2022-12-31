@@ -6,7 +6,8 @@ tags: [cheats]     # TAG names should always be lowercase
 ---
 
 ## md cheats
-2 waves: ~~strikeout~~ 
+
+2 waves: ~~strikeout~~
 
 2 equals: ==highlight==
 
@@ -14,7 +15,7 @@ tags: [cheats]     # TAG names should always be lowercase
 
 - [ ] - [ ] : check-list
 
-- [x] - [x] : checked-list 
+- [x] - [x] : checked-list
 
 > greater-space:blockquote
 
@@ -24,13 +25,13 @@ tags: [cheats]     # TAG names should always be lowercase
 
 square-**name**-square-bracket-**url**-bracket: [URL](https://github.com/YJY1029/container/blob/main/linux.md)
 
-exclamatioin-ditto: ![image](null)
+exclamatioin-ditto: ![thefuck](https://imgs.xkcd.com/comics/sandwich.png)
 
-## git cheats 
+## git cheats
 
-Remember to rename parent directory if duplicated. 
+Remember to rename parent directory if duplicated.
 
-`git commit --amend -m "xxx" && git push -uf origin`: extremely useful to one-time forcifully fix last push. 
+`git commit --amend -m "xxx" && git push -uf origin`: extremely useful to one-time forcifully fix last push.
 
 rebase.false: traditional merge
 
@@ -42,21 +43,23 @@ rebase.true: concatenate dev commits after main
 
 `vim .ssh/id_ed25510.pub`
 
-Although `ssh -T url` is ususally useful in testing and adding unknwon hosts, this is not strictly equal to `git clone` requests in that `ssh` (possibly) will call out a virtual terminal. 
+Although `ssh -T url` is ususally useful in testing and adding unknwon hosts, this is not strictly equal to `git clone` requests in that `ssh` (possibly) will call out a virtual terminal.
 
-## scp cheats 
+## scp cheats
+
 upload /foo to /bar: `scp /foo usr@ip:/bar`
 
-download: simply reverse 
+download: simply reverse
 
--r for directory, -P for port 
+-r for directory, -P for port
 
-## tar cheats 
-create foo.tar from ./bar: `tar -cf foo.tar ./bar` 
+## tar cheats
 
-decompress: `tar -xf foo.tar` 
+create foo.tar from ./bar: `tar -cf foo.tar ./bar`
 
--c for create, -x for decompress, -t for view contents 
+decompress: `tar -xf foo.tar`
+
+-c for create, -x for decompress, -t for view contents
 
 -v for verbose, -f for file(always the last one)
 

@@ -1,0 +1,27 @@
+---
+title: 划水周记（1）·2023
+date: 2023-1-6 00:54:49 +0000
+categories: [杂谈, 周记]
+tags: [nonsense]
+pin: true
+---
+
+> 还没想好这里要写什么
+{:.prompt-info}
+
+## 第一周
+
+收假了，进入状态还算快，但是昨天忘写周记了。
+
+这个月主要任务都会在ASOCat上，包括但不限于落实slipnet的实现，继续完成程序框架等。
+
+主要任务：
+
+1. *(0%)*Database technical，规划技术路线
+2. *(0%)*继续开发ASOCat，至少先重拾以前的coderack进度，目标完成1个component框架
+3. *(0%)*至少完成ASOCA顶层testbench spec，最好能完成初版（SV）
+
+次要任务：
+
+1. *(0%)*继续读两篇荷兰文献
+2. *(0%)*读完vim-galore

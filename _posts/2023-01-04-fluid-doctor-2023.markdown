@@ -6,7 +6,7 @@ tags: [nonsense]
 pin: true
 ---
 
-> 还没想好这里要写什么
+> 九点前起床！
 {:.prompt-info}
 
 ## 第四周
@@ -19,6 +19,7 @@ pin: true
 
 1. *(0%)*理清top module并完成skeleton
 2. *(0%)*写好一两个assembly testcase
+3. *(0%)*1min slide
 
 次要任务：
 

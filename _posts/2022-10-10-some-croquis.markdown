@@ -5,7 +5,7 @@ categories: [笔记, 速写]
 tags: [croquis, inspiration]
 ---
 
-## Kolmogrov Complexity 
+## Kolmogrov Complexity
 
 事实上，任何可用简短的程序打印的数值不可能是随机的，随机数值是不可压缩的。
 
@@ -23,16 +23,30 @@ tags: [croquis, inspiration]
 
 最终结论是：这一展区的主要展品很有可能属于波普艺术=>因此这一展区很有可能是波普艺术展区。
 
-*TBD：我们是如何知道它们是版画/波点盘子的？因为它们长得像版画，具有共同的特征。*
+我们是如何知道它们是版画/波点盘子的？或许因为它们长得像版画，具有共同的特征？
+
+甚或，这一层次的已经不重要了，交给NN来处理如何？
 
 ## What is a *concept*?
 
-In classical Copycat, nodes are all the concepts that appear in this domain. But what is a concept? I would say a concept is given by its relationship with other known concepts. 
+In classical Copycat, nodes are all the concepts that appear in this domain. But what is a concept? I would say a concept is given by its relationship with other known concepts.
 
-Is this a chicken-egg situation? No. Very basic concepts, e.g., left, right, etc. are given implicitly and very naturally by basic physical phenomena and laws, i.e., Tao(道). 
+Is this a chicken-egg situation? No. Very basic concepts, e.g., left, right, etc. are given implicitly and very naturally by basic physical phenomena and laws, i.e., Tao(道).
 
 It is a problem though, what are these basic concepts. But transparency dominates here, that for us high-level AI developers we do not care about what they are or what they mean -- *it's written in the seemingly unspeakable, intrinsic essence of the universe*.
 
 > What is "meaning"?
-> 
+>
 > The best definition I can give of it is that it is the interconnection with known concepts.
+
+## “我”
+
+我突然意识到，“我”不必是“我”：从数字生命，到AI生成的虚拟人物，再到我设置的自动回复，它们都可以是“我”。但它们成为“我”的唯一原因，是“我”（或者整个外界？）赋予它们的代表“我”的合法性。这一合法性源于它们产生的行为与效果和我本人的“等效性”，即能不能等效于是一个非常高效的“我”在合法地多线程运作。
+
+## Symbolics & Neuromorphics
+
+这两个词已经完美地交代了它们代表的含义：
+
+Symbolics与表示（representation）息息相关，代表的是人脑意识中语义的，即可描述可言传身教的那些活动。
+
+而neuromorphics代表的，是物质的神经活动/电信号产生的东西。对做神经接口神经网络等的研究者而言，搞清楚个中原理非常重要，但这些对我已经是透明的黑盒：如果神经网络可以搞定那就够了！

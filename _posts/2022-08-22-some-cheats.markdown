@@ -13,10 +13,6 @@ tags: [cheats]     # TAG names should always be lowercase
 
 - slash-space: list
 
-- [ ] - [ ] : check-list
-
-- [x] - [x] : checked-list
-
 > greater-space:blockquote
 
 \{:.prompt-tip/info/warning/danger}
@@ -30,8 +26,6 @@ exclamatioin-ditto: ![thefuck](https://imgs.xkcd.com/comics/sandwich.png)
 ## git cheats
 
 Remember to rename parent directory if duplicated.
-
-`git commit --amend -m "xxx" && git push -uf origin`: extremely useful to one-time forcifully fix last push.
 
 rebase.false: traditional merge
 
@@ -54,6 +48,9 @@ download: simply reverse
 -r for directory, -P for port
 
 ## tar cheats
+
+> Would recommend using shell plugins instead
+{:.prompt-tip}
 
 create foo.tar from ./bar: `tar -cf foo.tar ./bar`
 

@@ -7,9 +7,9 @@ order: 4
 > I'm currently interested in `scotch single malts`. Please reach out to me for any experience sharing. :wink:
 {: .prompt-tip }
 
-Please do check out *[CEF -- our group's page](https://cef.eng.ed.ac.uk/)*.
+Please do check out *[CEF - our group's page](https://cef.eng.ed.ac.uk/)*
 
-## What I do
+## What I Do
 
 ![IntroSlide](/assets/1min_YJY.png){: .w-50 .left}
 

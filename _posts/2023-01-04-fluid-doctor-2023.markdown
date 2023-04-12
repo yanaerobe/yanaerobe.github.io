@@ -9,7 +9,23 @@ pin: true
 > 九点前起床！
 {:.prompt-info}
 
-## 第十三周
+## 第十四周(0/7)
+
+周天拉胯了，直接玩得没睡觉，后边两天都没缓过来。
+
+还不太明白怎么独立写一篇论文出来，不过既然methodology不一样，不如就照自己想法来，到时再跟Alex取取经。
+
+主要任务：
+
+1. *(0%)*写出SN会需要哪些函数
+2. *(50%)*instruction-level testbench
+3. *(40%)*完成flagship的skeleton
+
+次要任务：
+
+1. *(0%)*打一个sp的提纲
+
+## 第十三周(0/7)
 
 真·半月记。
 
@@ -17,15 +33,15 @@ pin: true
 
 主要任务：
 
-1. *(0%)*根据Melanie完成SN的Python移植
-2. *(0%)*基于1完成SN的skeleton
-3. *(0%)*完成flagship的skeleton
+1. *(100%)*根据Melanie完成SN的Python移植
+2. *(50%)*instruction-level testbench
+3. *(40%)*完成flagship的skeleton
 
 次要任务：
 
-1. *(80%)*整理博客
+1. *(100%)*整理博客
 2. *(0%)*看看TPRN是如何训练的
-3. *(0%)*构思一下sp
+3. *(50%)*构思一下sp
 
 ## 第十一周
 

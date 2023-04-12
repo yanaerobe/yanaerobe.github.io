@@ -31,6 +31,26 @@ rebase.false: traditional merge
 
 rebase.true: concatenate dev commits after main
 
+## git subtree
+
+```shell
+# Under top-level repo directory
+# --prefix= -P
+
+# Suggest add subtree upstream
+git remote add subtree_upstream subtree_upstream_url
+
+# To split a dir into a subtree branch
+git subtree split --prefix=subdir -b subtree_branch
+
+# To add a subtree to this repo
+git subtree add --prefix=subdir subtree_upstream subtree_branch
+
+# To pull from/push to a subtree
+# The working tree shall be very clean
+git subtree pull/push --prefix=subdir subtree_upstream subtree_branch
+```
+
 ## ssh-keygen
 
 `ssh-keygen -t ed25519 -C "<comment>"`

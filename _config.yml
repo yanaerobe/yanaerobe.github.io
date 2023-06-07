@@ -23,7 +23,7 @@ title: 道.log
 ######################################
 # In URL before push: visits => main #
 ######################################
-tagline: This site is a mere messy memo. <script> function cb(response) { document.getElementById('main').innerText = response.value; } </script> <script async src="https://api.countapi.xyz/hit/yanjyang.github.io/main?callback=cb"></script> <body> Thanks for <span id="main"></span> clicks! </body>
+tagline: This site is a mere messy memo. <script> function cb(response) { document.getElementById('visits').innerText = response.value; } </script> <script async src="https://api.countapi.xyz/hit/yanjyang.github.io/visits?callback=cb"></script> Thanks for <span id="visits"></span> clicks!
 
 description: >-                        # used by seo meta and the atom feed
   In a 烂大街但确实好看的 theme.

@@ -9,6 +9,10 @@ pin: true
 > ~~九点前起床！~~十点前到办公室！
 {:.prompt-info}
 
+## 第26-29周
+
+N/A
+
 ## 第25周(?/5)
 
 HC还是翻车了，不过怒干一波代码修复了。
@@ -17,13 +21,13 @@ HC还是翻车了，不过怒干一波代码修复了。
 
 主要任务：
 
-1. *(0%)*尝试sign off HC TOP
+1. *(100%)*尝试sign off HC TOP
 2. *(0%)*report overleaf repo
-3. *(0%)*约review meeting
+3. *(80%)*约review meeting
 
 次要任务：
 
-1. *(0%)*padring files
+1. *(100%)*padring files
 
 ## 第24周(2/5)
 

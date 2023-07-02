@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> I'm currently interested in `scotch single malts`. Please reach out to me for any experience sharing. :wink:
+> I'm currently interested in `basic mixology skills`. Please reach out to me for any experience sharing. :wink:
 {: .prompt-tip }
 
 Please do check out *[CEF - our group's page](https://cef.eng.ed.ac.uk/)*

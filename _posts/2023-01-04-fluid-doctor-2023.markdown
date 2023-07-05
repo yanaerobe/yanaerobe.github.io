@@ -3,7 +3,7 @@ title: 划水周记（17）·2023
 date: 2023-1-6 00:54:49 +0000
 categories: [杂谈, 周记]
 tags: [nonsense]
-pin: true
+pin: false
 ---
 
 > ~~九点前起床！~~十点前到办公室！

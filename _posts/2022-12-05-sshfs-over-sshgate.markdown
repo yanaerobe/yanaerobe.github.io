@@ -1,8 +1,8 @@
 ---
 title: 使用sshfs搭载内网目录
 date: 2022-12-19 22:34:41 +0000
-categories: [cat1, cat2]
-tags: [lowercase]
+categories: [笔记, Linux]
+tags: [sshfs]
 ---
 
 ## 需求

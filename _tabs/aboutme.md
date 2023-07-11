@@ -4,10 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> I'm currently interested in `configuring SBCs`. Please reach out to me for any experience sharing. :wink:
-{: .prompt-tip }
+> I'm currently interested in `configuring SBCs`. Please reach out to me for any
+experience sharing. :wink:
+{:.prompt-tip}
 
-Please do check out *[Centre for Electronics Frontiers](https://cef.eng.ed.ac.uk/)* - our group's page
+Please do check out *[Centre for Electronics Frontiers](https://cef.eng.ed.ac.uk/)*
+\- our group's page
 
 ## What I Do
 
@@ -15,9 +17,15 @@ Please do check out *[Centre for Electronics Frontiers](https://cef.eng.ed.ac.uk
 
 My project talks about cognitive systems, a combination of both theories and hardware.
 
-Many cognitive models have been proposed over the years, and our main goal is to exploit our advanced **memristor** technology and build a model of our own. With the aid of a database accelerator and a symbolic AI accelerator, the system will be capable of performing a series of tasks.
+Many cognitive models have been proposed over the years, and our main goal is to
+exploit our advanced **memristor** technology and build a model of our own. With
+the aid of a database accelerator and a symbolic AI accelerator, the system will
+be capable of performing a series of tasks.
 
-Such a cognitive system is powerful for multiple usages, including pattern analogies, further on image recognition, UAV control and target search (heated topics in computer vision). And most importantly, explaining and imitating human cognition.
+Such a cognitive system is powerful for multiple usages, including pattern
+analogies, further on image recognition, UAV control and target search (heated
+topics in computer vision). And most importantly, explaining and imitating human
+cognition.
 
 ## CV
 

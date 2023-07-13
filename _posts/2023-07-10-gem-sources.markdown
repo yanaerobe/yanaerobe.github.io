@@ -18,7 +18,7 @@ gem sources --list
 # Remove obsolete gem sources
 gem sources --remove https://rubygems.org/
 # Add the mirror site
-gem sources --add https://gems.ruby-china.org/
+gem sources --add https://gems.ruby-china.com/
 # Clear and update gem sources
 gem sources --clear && gem sources --update
 ```

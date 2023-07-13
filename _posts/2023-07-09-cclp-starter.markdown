@@ -35,7 +35,9 @@ tags: [CCLP, Linux]
 
 TODO：用户组位于1001而非1000，需要了解其含义并制定更好的用户组策略
 
-## TODO: VPN
+## VPN
+
+详见[这篇笔记](/posts/linux-clash/)
 
 ## 配置ZSH与Neovim
 

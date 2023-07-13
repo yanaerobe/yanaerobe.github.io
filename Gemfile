@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 # By default:
-# source "https://rubygems.org"
+source "https://rubygems.org"
 # But when at home:
-source "https://gems.ruby-china.com/"
+# source "https://gems.ruby-china.com/"
 
 gem "jekyll-theme-chirpy", "~> 6.1"
 

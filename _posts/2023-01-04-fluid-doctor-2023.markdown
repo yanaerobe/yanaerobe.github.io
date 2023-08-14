@@ -3,11 +3,36 @@ title: 划水周记（29）·2023
 date: 2023-1-6 00:54:49 +0000
 categories: [杂谈, 周记]
 tags: [nonsense]
-pin: false
+pin: true
 ---
 
 > ~~九点前起床！~~十点前到办公室！
 {:.prompt-info}
+
+## 暑期计划
+
+> 立些flag
+{:.prompt-info}
+
+### ChoChiPi Roadmap
+
+已经给SBC想好名字了，CCLP/ChoChiPi（Chopped Chilli Pie，剁辣椒派）。这个任务的进度应该单独列一个专题。
+
+1. *(100%)*配置CCLP
+2. *(0%)*将博客挂载至CCLP：不知道怎么做，只知道能这样做。
+3. *(0%)*通过CCLP向博客挂载评论区
+4. *(0%)*搭建Minecraft服务器
+5. *(0%)*（可选）同时搭载teamspeak和CS:GO
+
+### Documentation
+
+1. *(100%)***完成annual report**
+2. *(0%)*更新ASOCat文档
+3. *(0%)*完成views paper
+
+### 其它
+
+1. *(0%)*写完Dr. P
 
 ## 第26-29周
 

@@ -3,7 +3,7 @@ title: 暑假计划
 date: 2023-7-5 14:28:02 +0800
 categories: [杂谈, 周记]
 tags: [nonsense]
-pin: true
+pin: false
 ---
 
 > 立些flag

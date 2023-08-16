@@ -24,4 +24,4 @@ tags: [CCLP]
 如果发布源不是主分支，该操作成功后会自动向发布分支提交`CNAME`文件。
 3. 等待一段时间DNS生效。（这次是35分钟内）
 
-[Et voilà](blog.yanaerobe.top)
+[Et voilà!](https://blog.yanaerobe.top)

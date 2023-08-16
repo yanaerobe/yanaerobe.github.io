@@ -29,10 +29,10 @@ description: >-                        # used by seo meta and the atom feed
   In a 烂大街但确实好看的 theme.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://yanjyang.github.io/"
+url: "https://yanaerobe.github.io/"
 
 github:
-  username: yanjyang
+  username: yanaerobe
 
 twitter:
   username: anaerobeyj
@@ -44,7 +44,7 @@ social:
   email: yanjun.yang@ed.ac.uk
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/yanjyang       # change to your github homepage
+    - https://github.com/yanaerobe       # change to your github homepage
     - https://twitter.com/anaerobeyj      # change to your twitter homepage
     # Uncomment below to add more social links
     - https://www.linkedin.com/in/anaerobe-yang

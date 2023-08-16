@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> I'm currently interested in `configuring SBCs`. Please reach out to me for any
+> I'm currently interested in `intranet penetration`. Please reach out to me for any
 experience sharing. :wink:
 {:.prompt-tip}
 
@@ -27,6 +27,6 @@ analogies, further on image recognition, UAV control and target search (heated
 topics in computer vision). And most importantly, explaining and imitating human
 cognition.
 
-## CV
+## Curriculum Vitae
 
 <object data="{{ site.url }}{{ site.baseurl }}/assets/cv_yyj.pdf" width="800" height="1000" type="application/pdf"></object>

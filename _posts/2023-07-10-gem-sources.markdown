@@ -22,3 +22,6 @@ gem sources --add https://gems.ruby-china.com/
 # Clear and update gem sources
 gem sources --clear && gem sources --update
 ```
+
+> 注意，如果托管在GitHub上Gemfile不要修改镜像，否则容易出现连接错误
+{:.prompt-warning}

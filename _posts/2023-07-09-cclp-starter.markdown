@@ -83,3 +83,9 @@ pip3 install thefuck --user
 ### autojump
 
 将[repo](https://github.com/wting/autojump/tree/master)拷贝至本地后`./install.py`
+
+### Copilot
+
+并不需要图形界面，但它和`vimrc`中WSL的剪贴板设置有冲突。
+
+删除相关字段后登陆[GitHub](https://github.com/login/device/)输入授权码即可完成配置。

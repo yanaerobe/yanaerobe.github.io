@@ -1,7 +1,7 @@
 ---
 title: 购买自定义域名并部署GitHub个人页
 date: 2023-8-16 21:29:30 +0100
-categories: [剁椒派, blog]
+categories: [剁椒派, 服务器]
 tags: [CCLP]
 ---
 
@@ -16,6 +16,8 @@ tags: [CCLP]
 - WHOIS隐私：有点像匿名模式，好像是开了之后WHOIS查不到个人信息。必买，NameSilo赠送。
 - Premium DNS：加快DNS解析（？），防止DDoS攻击。没人攻击我所以没用，没买。
 - SSL证书：没有证书有些浏览器或者服务不允许访问，还会有不安全的小锁标志。必买，后期考虑换Let's Encrypt的免费证书，买了NameSilo的基础证书。
+
+> 更新：像我一样的新手可能买个Premium DNS会好点，不然每次捣鼓都得等半个钟头，还不知道能不能成
 
 ## 将GitHub Pages部署至个人域名
 

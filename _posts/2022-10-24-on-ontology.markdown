@@ -1,7 +1,7 @@
 ---
 title: What is a concept?
 date: 2022-10-24 19:58:11 +0100
-categories: [笔记, 速写]
+categories: [杂谈, 速写]
 tags: [croquis]
 ---
 

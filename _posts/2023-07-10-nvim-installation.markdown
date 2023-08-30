@@ -7,41 +7,61 @@ tags: [Neovim]
 
 以下均在Ubuntu 22.04进行。
 
+Prerequisites
+
 ```shell
-# Prerequisites
 sudo apt-get install ninja-build gettext cmake unzip curl
+```
 
-# git clone Neovim repo
-git clone https://github.com/neovim/neovim
+git clone Neovim repo
+
+```shell
+git clone https://github.com/neovim/neovim\
 cd neovim
+```
 
+```shell
 # Optional stable version
 # git checkout stable
 
 # Optional download & build 3rd-party dependencies
 # make deps
+```
 
-# Download & build，Release/RelWithDebInfo/Debug
+Download & build，Release/RelWithDebInfo/Debug
+
+```shell
 make CMAKE_BUILD_TYPE=Release
+```
 
-# Check type
+Check type
+
+```shell
 ./build/bin/nvim --version | grep ^Build
+```
 
-# Global installation into `/usr/local`
+Global installation into `/usr/local`
+
+```shell
 sudo make install
+```
 
-# Or a specific location
-# make CMAKE_INSTALL_PREFIX=$HOME/local/nvim install
+Or a specific location
 
+```shell
+make CMAKE_INSTALL_PREFIX=$HOME/local/nvim install
+```
 
+For updating, run the following commands and repeat the above (not verified)
 
-# For updating, run the following commands and repeat the above (not verified)
+```shell
 make distclean
+```
 
+For uninstallation, run the follwing
 
-
-# For uninstallation, run the follwing
-make distclean
+```shell
+make distclean\
 sudo make uninstall
 ```
 

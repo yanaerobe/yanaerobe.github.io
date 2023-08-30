@@ -1,7 +1,7 @@
 ---
 title: 琐碎想法备忘
 date: 2022-10-10 23:37:14 +0100
-categories: [笔记, 速写]
+categories: [杂谈, 速写]
 tags: [croquis, inspiration]
 ---
 

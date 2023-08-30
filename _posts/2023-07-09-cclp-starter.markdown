@@ -23,15 +23,17 @@ tags: [CCLP, Linux]
 
 3.6.4：`orangepi-config`或`/boot/orangepiEnv.txt`启用硬件模块。
 
-3.6.2：`nmcli`服务器端无GUI连接并测试WiFi
+3.6.2：`nmcli dev wifi`服务器端无GUI连接并测试WiFi
 
 3.6.3: 设置静态IP地址放在设置服务器上说
 
 ## 设置其它用户
 
-使用`adduser`跟随系统指引即可。
+使用`adduser username`跟随系统指引即可。
 
-顺便使用`sudo auto_login_cli.sh username`修改了登陆用户。
+使用`sudo auto_login_cli.sh username`修改登陆用户。
+
+使用root用户向`/etc/sudoers`添加`username ALL=(ALL) ALL`即可添加sudo权限
 
 TODO：用户组位于1001而非1000，需要了解其含义并制定更好的用户组策略
 
@@ -45,7 +47,7 @@ TODO：用户组位于1001而非1000，需要了解其含义并制定更好的�
 
 系统自带了oh-my-zsh，但是在`/etc/`目录下，所以把root的shell也改成了zsh，这样su可以直接更新omz。
 
-Neovim的预编译版本都无法使用，提示执行格式不正确。我猜预编译版本都是x86架构的。
+[Neovim](/posts/nvim-installation/)的预编译版本都无法使用，提示执行格式不正确。我猜预编译版本都是x86架构的。
 
 搞了半天才装上，`make`各种报网络错误，跑了不下十遍才全部下载好，佛了。
 
@@ -69,8 +71,8 @@ sudo apt-get install -y nodejs
 ### [thefuck](https://github.com/nvbn/thefuck)
 
 ```shell
-sudo apt update
-sudo apt install python3-dev python3-pip python3-setuptools
+sudo apt update \
+sudo apt install python3-dev python3-pip python3-setuptools \
 pip3 install thefuck --user
 ```
 

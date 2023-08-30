@@ -1,7 +1,7 @@
 ---
 title: 苏格兰国家博物馆一瞥：人们是如何判别波普艺术的
 date: 2022-10-24 19:58:11 +0100
-categories: [笔记, 速写]
+categories: [杂谈, 速写]
 tags: [croquis]
 ---
 

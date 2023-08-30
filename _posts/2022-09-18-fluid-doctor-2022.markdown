@@ -1,7 +1,7 @@
 ---
 title: 划水年记·2022
 date: 2022-9-20 00:53:13 +0100
-categories: [杂谈, 周记]
+categories: [笔记, 周记]
 tags: [nonsense]
 pin: false
 ---

@@ -34,4 +34,4 @@ tar -xvpfz backup.tar.gz -C /
 
 > `dd`可能仍然是一个更正经的磁盘映像制作手段，毕竟不需要将boot分区和filesystem分开恢复
 > 主要问题依然是auto authentication和可能存在的片段损坏
-{:.prompt-tips}
+{:.prompt-tip}

@@ -65,6 +65,9 @@ TeamSpeak不同的服务需要不同的端口，详细列表与功能[见此页�
 | WebQuery (https)  | TCP  | 10443 |
 | TSNDS             | TCP  | 41144 |
 
+> 语音端口（9987）不要同时开启TCP与UDP协议，ref [here](https://community.teamspeak.com/t/solved-hosting-a-ts3-server-at-home/3402/16)
+{:.prompt-danger}
+
 > TeamSpeak默认使用免费证书，支持单个最多32人在线的虚拟服务器。
 > 如果使用付费证书的多个虚拟服务器，端口号自9987递增。
 {:.prompt-info}

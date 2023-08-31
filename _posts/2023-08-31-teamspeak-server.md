@@ -5,7 +5,7 @@ categories: [剁椒派, 服务器]
 tags: [CCLP, TeamSpeak]
 ---
 
-使用方法可直接转到[这里](#连接TeamSpeak-3服务器并调整设置)。
+使用方法可直接转到[这里](#连接teamspeak-3服务器并调整设置)。
 
 ## 概述
 
@@ -148,6 +148,6 @@ cancellation在某些条件下（e.g., 垃圾麦）可能使得语音捕获不�
 
 ### 汉化
 
-进入[汉化包repo](https://github.com/VigorousPro/TS3-Translation_zh-CN/releases)（GitHub页面，可能需要VPN）或[这里](/assets/lib/Chinese_Translation_zh-CN.ts3_translation)下载TeamSpeak汉化包。下载后直接运行并重启客户端即可完成客户端汉化。
+进入[汉化包repo](https://github.com/VigorousPro/TS3-Translation_zh-CN/releases)（GitHub页面，可能需要VPN）或[这里](/assets/Chinese_Translation_zh-CN.ts3_translation)下载TeamSpeak汉化包。下载后直接运行并重启客户端即可完成客户端汉化。
 
 汉化包卸载可在工具->设置->附加组件->翻译中进行。

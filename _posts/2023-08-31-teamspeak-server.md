@@ -13,20 +13,20 @@ tags: [CCLP, TeamSpeak]
 
 ## Box64
 
-[Box64](https://github.com/ptitSeb/Box64)是一款用户层模拟器，通过直接将x86指令翻译成ARM64指令实现跨架构应用的运行。
+[Box64](https://github.com/ptitSeb/box64)是一款用户层模拟器，通过直接将x86指令翻译成ARM64指令实现跨架构应用的运行。
 
 ### 安装
 
 git clone
 
 ```shell
-git clone https://github.com/ptitSeb/Box64
+git clone https://github.com/ptitSeb/box64
 ```
 
 编译Box64并安装。
 
 ```shell
-cd Box64
+cd box64
 mkdir build
 cd build
 # For RK3588/RK3588S
@@ -53,7 +53,7 @@ sudo reboot
 
 ### 设置端口转发
 
-TeamSpeak不同的服务需要不同的端口，详细列表与功能[见此页面](https://support.TeamSpeak.com/hc/en-us/articles/360002712257-Which-ports-does-the-TeamSpeak-3-server-use-)。其中最为重要的是UDP协议的9987端口，此为语音服务器端口。
+TeamSpeak不同的服务需要不同的端口，详细列表与功能[见此页面](https://support.teamspeak.com/hc/en-us/articles/360002712257-Which-ports-does-the-teamspeak-3-server-use-)。其中最为重要的是UDP协议的9987端口，此为语音服务器端口。
 
 | 服务              | 协议 | 端口  |
 |-------------------|------|-------|
@@ -77,26 +77,26 @@ TeamSpeak不同的服务需要不同的端口，详细列表与功能[见此页�
 进入官网`wget`对应的服务器端版本。
 
 ```shell
-wget https://files.TeamSpeak-services.com/releases/server/3.13.7/TeamSpeak3-server_linux_amd64-3.13.7.tar.bz2
+wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak-server_linux_amd64-3.13.7.tar.bz2
 ```
 
 解压压缩包。
 
 ```shell
 # Or use `extract` under oh-my-zsh
-tar -xvf TeamSpeak3-server_linux_amd64-3.13.7.tar.bz2
+tar -xvf teamspeak-server_linux_amd64-3.13.7.tar.bz2
 ```
 
 ```shell
 # Optional 
-rm TeamSpeak3-server_linux_amd64-*
-mv TeamSpeak3-server_linux_amd64 TeamSpeak3
+rm teamspeak-server_linux_amd64-*
+mv teamspeak-server_linux_amd64 teamspeak
 ```
 
 接受用户协议
 
 ```shell
-cd TeamSpeak3
+cd teamspeak
 touch .ts3server_license_accepted
 ```
 
@@ -112,7 +112,7 @@ touch .ts3server_license_accepted
 
 ## 连接TeamSpeak 3服务器并调整设置
 
-进入[官网](https://TeamSpeak.com/en/downloads/#client)（可能需要VPN）或其他途径下载客户端并安装。
+进入[官网](https://teamspeak.com/en/downloads/#client)（可能需要VPN）或其他途径下载客户端并安装。
 
 安装过程中，Overwolf是一个可选的GUI与overlay组件。TeamSpeak账户亦可不填，该账户仅用于TeamSpeak官方社区而非客户端。
 

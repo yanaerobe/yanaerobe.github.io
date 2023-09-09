@@ -5,7 +5,9 @@ categories: [剁椒派, 服务器]
 tags: [CCLP, TeamSpeak]
 ---
 
-使用方法可直接转到[这里](#连接teamspeak-3服务器并调整设置)。
+> 使用方法可直接转到[这里](#连接teamspeak-3服务器并调整设置)。
+> 联系我获取我的TeamSpeak 3服务器地址与密码 :)
+{:.prompt-info}
 
 ## 概述
 

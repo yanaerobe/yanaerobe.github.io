@@ -6,13 +6,10 @@ tags: [nonsense]
 pin: true
 ---
 
-1. DDNS
-2. 整理谱儿和方子
-3. 剪视频
-4. Dr. P
-5. LeaderF rg
-6. 分割vimrc
-7. 上传cs2rc
+1. 剪视频
+2. Dr. P
+3. 分割vimrc
+4. 上传cs2rc
 
 > ~~九点前起床！~~十点前到办公室！
 {:.prompt-info}
@@ -25,13 +22,13 @@ pin: true
 
 主要任务：
 
-1. *(0%)*写下可发表的点子作提醒与备忘
+1. *(100%)*写下可发表的点子作提醒与备忘
 2. *(0%)*完成workspace skeleton，同时保持slipn\*更新
 
 次要任务：
 
-1. *(0%)*Namesilo DDNS
-2. *(0%)*整理谱儿和方子
+1. *(100%)*Namesilo DDNS
+2. *(100%)*整理谱儿和方子
 3. *(0%)*完成Dr.P(1)，考虑给(2)开头
 
 ## 第33周(0/5)
@@ -49,6 +46,7 @@ pin: true
 次要任务：
 
 1. *(100%)*再搭载一次TS服务器
+
 ~~2. *(0%)*如果失败了，再用docker搭载一次~~
 
 ## 第32周(2/5)
@@ -76,6 +74,7 @@ pin: true
 1. *(100%)*完成views paper
 2. *(10%)*读完holo和semi holo
 3. *(80%)*scanch tb草稿
+
 ~~4. *(30%)*HC debug，可能加个synchroniser~~
 
 次要任务：

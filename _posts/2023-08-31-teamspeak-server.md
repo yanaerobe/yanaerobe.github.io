@@ -6,12 +6,14 @@ tags: [CCLP, TeamSpeak]
 ---
 
 > 使用方法可直接转到[这里](#连接teamspeak-3服务器并调整设置)。
-> 联系我获取我的TeamSpeak 3服务器地址与密码 :)
+> 联系我获取我的TeamSpeak 3服务器地址与密码 :smirk:
 {:.prompt-info}
 
 ## 概述
 
-使用ARMv8（64位）架构的香橙派搭建x86架构的TeamSpeak 3服务器并将其穿透至公网。
+国内语音软件生态令人非常反感，在此点名批评某K姓流氓软件。
+
+自己动手丰衣足食，使用ARMv8（64位）架构的香橙派搭建x86架构的TeamSpeak 3服务器并将其穿透至公网。
 
 ## Box64
 
@@ -65,12 +67,12 @@ TeamSpeak不同的服务需要不同的端口，详细列表与功能[见此页�
 | ServerQuery (ssh) | TCP  | 10022 |
 | WebQuery (hhtp)   | TCP  | 10080 |
 | WebQuery (https)  | TCP  | 10443 |
-| TSNDS             | TCP  | 41144 |
+| TSDNS             | TCP  | 41144 |
 
 > 语音端口（9987）不要同时开启TCP与UDP协议，ref [here](https://community.teamspeak.com/t/solved-hosting-a-ts3-server-at-home/3402/16)
 {:.prompt-danger}
 
-> TeamSpeak默认使用免费证书，支持单个最多32人在线的虚拟服务器。
+> TeamSpeak无证书情况下支持单个最多32人在线的虚拟服务器。
 > 如果使用付费证书的多个虚拟服务器，端口号自9987递增。
 {:.prompt-info}
 
@@ -116,7 +118,7 @@ touch .ts3server_license_accepted
 
 进入[官网](https://teamspeak.com/en/downloads/#client)（可能需要VPN）或其他途径下载客户端并安装。
 
-安装过程中，Overwolf是一个可选的GUI与overlay组件。TeamSpeak账户亦可不填，该账户仅用于TeamSpeak官方社区而非客户端。
+安装过程中，Overwolf是一个可选的游戏内覆盖组件（用起来一般般）。TeamSpeak账户亦可不填，该账户仅用于TeamSpeak官方社区而非客户端。
 
 启动客户端，从Connections下拉菜单中选择Connect。
 
@@ -126,9 +128,24 @@ touch .ts3server_license_accepted
 
 ![server-info](/assets/posts/2023-08-31-200842.png){: w="500"}
 
-成功后即可进入服务器。注意，仅管理员能在服务器中发言。
+成功后即可进入服务器，have fun!
 
 使用Connections下拉菜单中的Disconnect或直接使用Ctrl+D退出服务器。
+
+### 如果连接出现问题
+
+可能的问题包括但不限于：无法连接服务器，语音中连接超时掉线，通话电流音大。
+
+TeamSpeak 3所需资源极少，上传下载速率仅需若干Kb每秒，硬件与网速不太可能出问题。大部分情况下，这些都是网络环境或配置问题。
+
+个人建议的调试方法有：
+
+1. 召唤一个好兄弟尝试连接，排除服务器问题。
+2. 点击Bookmark下拉菜单中的TeamSpeak Public，连接至官方服务器，排查自身网络问题。
+3. 如果前两条无法复现问题，Windows下在`:C/Users/username/AppData/Roaming/TS3Client/logs`中查找日志文件排查问题。
+4. 如果还是不能解决问题，施展进阶召唤术寻求服务器运营/管理员甚或网络运营商的帮助。
+
+亦可参考[本TeamSpeak社区页面](https://community.teamspeak.com/t/you-cant-connect-to-a-server/8530/1)的解决方案。
 
 ### 调整设置
 
@@ -136,7 +153,7 @@ touch .ts3server_license_accepted
 
 ![options](/assets/posts/2023-08-31-200853.png){: w="500"}
 
-设置界面中，Playback为语音接收设置。据我所知，默认的声音设置得比较小，建议适当调高Voice Volume Adjustment。其它可根据个人需求调整。
+设置界面中，Playback为语音接收设置。据我所知，默认声音设置比较小，建议适当调高Voice Volume Adjustment。其它可根据个人需求调整。
 
 ![playback](/assets/posts/2023-08-31-200926.png){: w="500"}
 

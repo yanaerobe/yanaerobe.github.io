@@ -52,6 +52,25 @@ crontab -l
 3. 修改默认端口
 4. 使用ssh秘钥，关闭高权限用户的`ssh`远程登录
 
-## TODO: `ssh`秘钥生成与使用
+## `ssh`秘钥生成与使用
 
-pass
+> 部分参考[此页面](https://cloud.tencent.com/developer/article/1780788)
+{:.prompt-info}
+
+首先，在客户端生成一对ssh秘钥。
+
+```shell
+ssh-keygen -t type -f filename -N passphrase
+```
+
+使用passphrase可以提高安全性，但在`scp`时可能需要多次输入passphrase，比较麻烦。更适合在单纯的ssh中使用。
+
+TODO: 使用`ssh-agent`解决此问题
+
+随后使用如下命令，或`ssh-copy-id`，或直接登陆主机将`filename.pub`中的内容加入需登陆用户的`~/.ssh/authorized_keys`中。
+
+```shell
+cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+```
+
+另：要禁止某一用户的ssh登陆权限，在`/etc/ssh/sshd_config`中添加`DenyUsers user`一行即可。

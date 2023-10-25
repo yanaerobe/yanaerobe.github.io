@@ -13,6 +13,10 @@ CCLP开机启动1-2天后在极低负载的情况下CPU使用率异常地高（�
 
 使用`htop`查看发现若干个名为`watchdogs ssh a watchdog kthread`的进程占用了这些异常资源。
 
+此外，若干用户的`ssh`验证密码即使多次重设依然总是失败。
+
+> 后来发现这些用户就是被入侵的用户
+
 ## 排查
 
 一开始以为是长期开启服务器与脚本导致软硬件异常，开门狗程序使能。但多次重启后台与CCLP均无法排除这一问题，香橙派提供的开门狗测试程序也返回了正常的结果。
@@ -74,3 +78,5 @@ cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >> ~/.ssh/authoriz
 ```
 
 另：要禁止某一用户的ssh登陆权限，在`/etc/ssh/sshd_config`中添加`DenyUsers user`一行即可。
+
+又另：在上述文件中设置`MaxAuthTries`可以在若干次后禁用用户端的ssh尝试。

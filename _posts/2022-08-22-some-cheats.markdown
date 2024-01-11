@@ -31,6 +31,22 @@ rebase.false: traditional merge
 
 rebase.true: concatenate dev commits after main
 
+## [git-filter-repo](https://github.com/newren/git-filter-repo)
+
+*Recommend install via package manager*
+
+```shell
+# Analysis is also used in online repo cleanup
+git-filter-repo --analyze
+
+# Choose specific files and filter history
+# Multiple paths should be specified separately
+git-filter-repo --path <dir_or_file> --path <dir_or_file>
+
+# Filter out specific files and filter history
+git-filter-repo --path <dir_or_file> --invert-paths
+```
+
 ## git subtree
 
 ```shell

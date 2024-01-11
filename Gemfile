@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # But when at home:
 # source "https://gems.ruby-china.com/"
 
-gem "jekyll-theme-chirpy", "~> 6.3", ">= 6.3.1"
+gem "jekyll-theme-chirpy", "~> 6.4", ">= 6.4.1"
 
 group :test do
   gem "html-proofer", "~> 4.4"

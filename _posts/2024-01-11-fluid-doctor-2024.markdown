@@ -1,5 +1,5 @@
 ---
-title: 划水周记·2024（1）
+title: 划水周记·2024（4）
 date: 2024-1-11 20:19:09 +0000
 categories: [笔记, 周记]
 tags: [nonsense]
@@ -8,6 +8,24 @@ pin: true
 
 > 加倍努力，争取产出！
 {:.prompt-info}
+
+## 第4周
+
+忙demonstration呢，实际工作时间不算长。
+
+STM项目并不是很有眉目，这周得看看想个roadmap。
+
+ASOCA3最开始的开发的蜜月期过去了，想调整重心到搭建workflow上。
+
+主要任务：
+
+1. 初步搭建一个vivado流的makefile
+2. 搞明白什么是data augmentation
+3. 想一想STM的roadmap
+
+次要任务：
+
+1. 调试SC behavioural
 
 ## 第3周
 

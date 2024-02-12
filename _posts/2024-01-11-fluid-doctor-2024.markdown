@@ -6,7 +6,7 @@ tags: [nonsense]
 pin: true
 ---
 
-> 加倍努力，争取产出！
+> 三天verilog，两天python
 {:.prompt-info}
 
 ## 第5周
@@ -24,7 +24,7 @@ pin: true
 1. 调试SC behavioural
 2. 更新办公室vivado至2023
 
-## 第4周
+## 第4周(5:0)
 
 忙demonstration呢，实际工作时间不算长。
 

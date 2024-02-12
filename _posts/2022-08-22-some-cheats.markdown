@@ -5,23 +5,33 @@ categories: [笔记, cheats]
 tags: [cheats]     # TAG names should always be lowercase
 ---
 
-## md cheats
+> Adding & removing based on my personal memory.
+{:.prompt-info}
 
-2 waves: ~~strikeout~~
+## md cheats
 
 2 equals: ==highlight==
 
 - slash-space: list
 
-> greater-space:blockquote
-
 \{:.prompt-tip/info/warning/danger}
 
     4 spaces: code
 
-square-**name**-square-bracket-**url**-bracket: [URL](https://github.com/YJY1029/container/blob/main/linux.md)
+## Python venv
 
-exclamatioin-ditto: ![thefuck](https://imgs.xkcd.com/comics/sandwich.png)
+```shell
+# virtual env creation
+py -m venv $env_name
+
+# activation, check & deactivate
+source $env_name/bin/activate
+echo $VIRTUAL_ENV
+deactivate
+
+# print current packages
+pip3 freeze > requirements.txt
+```
 
 ## git cheats
 

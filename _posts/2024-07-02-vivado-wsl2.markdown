@@ -1,0 +1,73 @@
+---
+title: 在WSL2下使用Vivado工作流
+date: 2024-07-02 21:52:02 +0100
+categories: [笔记, FPGA]
+tags: [FPGA, Linux, WSL2, Vivado]
+---
+
+## Background
+
+WSL2 does not support native connection to USB devices on host machine. This blog
+briefly introduces steps in sharing and connecting devices via `usbipd` under WSL2.
+
+## Prerequisites
+
+1. WSL2
+2. `usbipd` [installation](https://github.com/dorssel/usbipd-win/releases) in Windows.
+
+### USB attachment
+
+In Windows powershell **with admin previledge**, run:
+
+> NOTE: attach **ALL** devices from the board
+
+```powershell
+# find USB busid
+usbipd list
+
+# share devices with WSL2
+usbipd bind --busid $(BUS_ID)
+
+# attach to WSL2
+usbipd attach --wsl --busid $(BUS_ID)
+```
+
+In WSL2, check attached devices:
+
+```bash
+lsusb
+```
+
+### Connect in Vivado
+
+Linux Vivado doesn't provide cable drivers by default. Therefore, to install
+the drivers, in WSL2 run:
+
+```shell
+cd $XILINX_VIVADO/data/xicom/cable_drivers/lin64/install_script/install_drivers
+sudo ./install_drivers
+```
+
+Then, open Vivado with `sudo` (?), or modify USB device ownership with `usermod`
+or `chmod`. e.g.,
+
+```shell
+chmod -R -777 /dev/bus/usb
+```
+
+As a result of successful executions, one can now connect to the board in Vivado
+under WSL2.
+
+### Group policy
+
+On managed PCs, group policies may block `usbipd` from connecting to
+Windows. To solve this:
+
+1. Go to `C:/Windows/System32`.
+2. Run `gpedit.msc` (group policy editor) as admin.
+3. in Computer Configuration > Windows Settings >
+Security Settings > Windows Defender with Advanced Security > Windows Defender
+Firewall with ... > Inbound rules
+4. Add a rule to allow TCP at port 3240 at least for `usbipd`.
+5. Rerun `powershell` steps.
+

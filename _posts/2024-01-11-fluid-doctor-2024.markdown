@@ -3,7 +3,7 @@ title: 划水周记·2024（5）
 date: 2024-1-11 20:19:09 +0000
 categories: [笔记, 周记]
 tags: [nonsense]
-pin: true
+pin: false
 ---
 
 > 三天verilog，两天python

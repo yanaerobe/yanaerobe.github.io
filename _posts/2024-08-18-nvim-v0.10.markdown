@@ -1,0 +1,40 @@
+---
+title: 更新至Neovim v0.10.0
+date: 2024-08-18 23:21:09 +0100
+categories: [笔记, Linux]
+tags: [Neovim]
+---
+
+上个月月底Neovim发布了v0.10.1版，之前使用v0.10.0时遇到了语法高亮的问题，想了想还是不赖在v0.9了，本篇记录下调试log。
+
+## 问题
+
+Windows Terminal中的高亮完全崩溃，但在其它Terminal（如VSCode内置Terminal中）可以正常显示。
+
+## 分析
+
+根本上来讲，Windows Terminal的TUI不对劲，魔改得比较多导致它无法和0.10全新的branded colorscheme兼容。
+
+1. 如果要修改配置来解决这一问题，似乎与`hi clear`在init中的位置有关
+2. 更换其它colorscheme可以解决高亮的问题，但是一个不好看再一个背景不透明
+3. `hi Normal ctermfg=NONE ctermbg=NONE`可以部分解决背景不透明的问题
+4. `colorscheme vim`在我的安装里找不到原文件，而且并不是推荐的做法
+
+## 尝试过的办法
+
+1. 修改`$VIMRUNTIME`中2001版本`default.vim`试试：没有用，不安装进去`:checkhealth`也用不了。
+2. 尝试在CCLP上安装0.10.1的neovim到`/usr`中：高亮问题依然没有解决，`:checkhealth`抛出的错误和`treesitter`以及旧版本文件有关，依prompt可以顺利解决。
+
+## 目前的结果
+
+1. 从编译后的`/runtime`中拷贝了`vim.lua` colorscheme过去，现在`:colorscheme vim`可以正常使用了。
+2. 除了倒回旧colorscheme外，还在init开头加入了`set notermguicolors`来彻底倒回旧色彩。
+
+## 后记
+
+**TBD**
+
+现在看来，仍然是Windows Terminal的色彩有问题。但我对完全不懂Terminal标准什么的，Stack Overflow、GitHub Issue和
+Reddit上的解决方案也都是让人倒回旧色彩。所以我到现在还没看到Neovim所谓的branded colorscheme是什么样子的，这一问题还是有待解决。
+
+但不得不说，v0.10是真快啊。不光启动，连更新插件速度都飞起来了……即使要加两行丑陋的init也完全值得了。

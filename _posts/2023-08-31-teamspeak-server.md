@@ -116,6 +116,8 @@ touch .ts3server_license_accepted
 
 ## 连接TeamSpeak 3服务器并调整设置
 
+### TeamSpeak 3客户端
+
 进入[官网](https://teamspeak.com/en/downloads/#client)（可能需要VPN）或其他途径下载客户端并安装。
 
 安装过程中，Overwolf是一个可选的游戏内覆盖组件（用起来一般般）。TeamSpeak账户亦可不填，该账户仅用于TeamSpeak官方社区而非客户端。
